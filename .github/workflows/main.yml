@@ -56,7 +56,7 @@ jobs:
       uses: Azure/cli@1.0.4
       with:
         inlineScript: |
-             az storage blob upload-batch --account-name statichostingwebs -d '$web' -s dist/
+             az storage blob upload-batch --account-name staticcontent1 -d '$web' -s dist/
 
     - name: logout
       run: |
